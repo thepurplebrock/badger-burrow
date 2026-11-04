@@ -108,7 +108,7 @@ The design foundation. Pure TypeScript — no React dependency.
 import { generateScale } from '@purple-brock/burrow-tokens'
 
 generateScale('#744577')
-// → { 50: '#f9f0f7', 100: '...', ..., 500: '#744577', ..., 900: '...' }
+// → { 50: '#ebb5ee', 100: '#dfaae2', ..., 500: '#744577', ..., 900: '#0e0013' }
 ```
 
 Options: `anchor` (which shade your hex maps to, default `500`) and `format` (`'hex' | 'rgb' | 'hsl' | 'oklch'`).
@@ -257,7 +257,7 @@ const size = createVariants({
 
 const { tokens, mode } = useBurrow()
 const styles = size('md', tokens, mode)
-// → { padding: 16, fontSize: 14 }
+// → { padding: 16, fontSize: 16 }
 ```
 
 ### Token resolution — `resolveToken`
@@ -266,7 +266,7 @@ const styles = size('md', tokens, mode)
 import { resolveToken } from '@purple-brock/burrow-core'
 
 resolveToken('color.interactive.primary', tokens, 'light')
-// → '#744577'  (resolves semantic → primitive)
+// → '#723dd7' with the default tokens (resolves semantic → primitive)
 
 resolveToken('space.4', tokens)
 // → 16
@@ -653,7 +653,7 @@ actually did with it — the questions inspect-element can't answer:
 - exposes a **`data-bb-debug="⟳N"`** render counter (visible in devtools — handy
   for catching needless re-renders);
 - logs a collapsed **console group** each render with the **resolved styles**
-  (`primary.500 → #723dd7`, `p="4" → 16px`), render count, size and mode.
+  (`primary.500 → #8b5cf6`, `p="4" → 16px`), render count, size and mode.
 
 On native it logs the resolved style + size (via `onLayout`) to the console.
 
@@ -718,7 +718,7 @@ so you drop the `color.` / `space.` / `fontSize.` prefix:
 p="4"               → space.4   → 16   (string "4" = token; number 4 = raw 4px)
 p="md"              → space.md  → 16
 radius="md"         → radius.md → 8
-bg="primary.500"    → color.primary.500   → '#744577'
+bg="primary.500"    → color.primary.500   → '#8b5cf6' (default violet)
 bg="bg.surface"     → color.bg.surface    → resolves via semantic[mode] → primitive
 color="text.primary"→ color.text.primary
 fontSize="lg"       → fontSize.lg → 20
