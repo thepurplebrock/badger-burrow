@@ -8,7 +8,7 @@ Framework-agnostic engine for Purple Brock Burrow — the provider-less token st
 
 **Needs:** React ≥ 18 (peer). ESM only.
 
-Part of **Purple Brock Burrow** by The Purple Brock — see the
-[main README and usage guide](https://github.com/thepurplebrock/badger-burrow#readme).
+Part of **Purple Brock Burrow** by The Purple Brock.
+**📖 Full documentation: [thepurplebrock.com/docs](https://thepurplebrock.com/docs/burrow/guides/)** · source: [GitHub](https://github.com/thepurplebrock/badger-burrow)
 
 MIT © 2026 Luke Price (The Purple Brock)

@@ -41,6 +41,7 @@
     "access": "public"
   },
   "sideEffects": false,
+  "homepage": "https://thepurplebrock.com/docs/burrow/guides/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thepurplebrock/badger-burrow.git",

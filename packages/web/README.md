@@ -8,7 +8,7 @@ Purple Brock Burrow for React on the web — `<Chamber>` and `<Tunnel>` with pse
 
 **Needs:** React ≥ 18. ESM only.
 
-Part of **Purple Brock Burrow** by The Purple Brock — see the
-[main README and usage guide](https://github.com/thepurplebrock/badger-burrow#readme).
+Part of **Purple Brock Burrow** by The Purple Brock.
+**📖 Full documentation: [thepurplebrock.com/docs](https://thepurplebrock.com/docs/burrow/guides/)** · source: [GitHub](https://github.com/thepurplebrock/badger-burrow)
 
 MIT © 2026 Luke Price (The Purple Brock)

@@ -4,6 +4,8 @@
 
 <h1 align="center">Purple Brock Burrow</h1>
 
+<p align="center"><a href="https://thepurplebrock.com/docs/burrow/guides/"><b>📖 Full documentation → thepurplebrock.com/docs</b></a></p>
+
 > *No ThemeProvider. No Context. No cascade re-renders. Your theme lives in the burrow.*
 
 A styling library for React (web) and React Native. Style components with props backed by design tokens — colours, spacing, typography — managed in a single central store. No provider wrapping your app. No unnecessary re-renders.
