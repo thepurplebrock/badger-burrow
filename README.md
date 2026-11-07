@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/lrprice79/badger-burrow/HEAD/assets/purple-brock-icon.png" width="140" alt="Purple Brock Burrow">
+  <img src="https://raw.githubusercontent.com/thepurplebrock/badger-burrow/HEAD/assets/purple-brock-icon.png" width="140" alt="Purple Brock Burrow">
 </p>
 
 <h1 align="center">Purple Brock Burrow</h1>

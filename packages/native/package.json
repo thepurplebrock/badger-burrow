@@ -51,7 +51,7 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lrprice79/badger-burrow.git",
+    "url": "git+https://github.com/thepurplebrock/badger-burrow.git",
     "directory": "packages/native"
   }
 }
